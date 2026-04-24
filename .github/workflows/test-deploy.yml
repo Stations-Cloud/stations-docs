@@ -1,0 +1,26 @@
+name: Testar build em Pull Requests
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test-build:
+    name: Testar build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Testar build do site
+        run: npm run build

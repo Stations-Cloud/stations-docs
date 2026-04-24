@@ -11,11 +11,13 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://stations-cloud.github.io',
+  baseUrl: '/stations-docs/',
 
   organizationName: 'Stations-Cloud',
-  projectName: 'Stations Docs',
+  projectName: 'stations-docs',
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
