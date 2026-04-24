@@ -1,0 +1,171 @@
+---
+id: index
+title: Changelog
+sidebar_label: Todas as versões
+slug: /changelog
+---
+
+# Versões — Super App Stations
+
+Aqui você acompanha todas as melhorias, novidades e correções lançadas no app, em ordem da mais recente para a mais antiga.
+
+## Como ler a versão do app
+
+Na tela de perfil do usuário, são exibidas **duas versões** diferentes:
+
+<img src="/img/versoes-perfil.png" alt="Tela de perfil mostrando v1.1.8 (n) e v0.1.4 (ota)" width="280" />
+
+| Indicador | O que significa |
+|-----------|----------------|
+| **(n)** — versão nativa | É a versão do app enviada para a App Store ou Google Play. Só muda quando há uma atualização publicada nas lojas. |
+| **(ota)** — versão OTA | É a versão da atualização automática, compartilhada entre todos os apps da plataforma Stations. **É essa versão que deve ser consultada nesta documentação.** |
+
+Ao reportar um problema ou buscar uma versão no changelog, sempre informe o número **(ota)**.
+
+---
+
+## Versão 0.1.5 — 22 de abril de 2026
+
+### Corrigido
+- Correção de um erro que impedia a exibição correta do valor da indenização em algumas telas de seguro
+- Melhoria na forma como o app busca informações de seguro, evitando que dados antigos apareçam em telas atualizadas
+- Ajuste visual na tela inicial da área de seguros
+
+---
+
+## Versão 0.1.4 — 22 de abril de 2026
+
+### Corrigido
+- Ajustes de layout e organização visual na tela inicial da área de seguros
+- Correção no carregamento de valores de indenização
+- Melhoria na apresentação dos cards de seguro
+
+---
+
+## Versão 0.1.3 — 15 de abril de 2026
+
+### Corrigido
+- Correção na organização dos cards na tela inicial, que em alguns celulares apareciam desalinhados
+
+---
+
+## Versão 0.1.2 — 15 de abril de 2026
+
+### Corrigido
+- Os cards da tela inicial agora são exibidos corretamente em duas fileiras de três, em qualquer tamanho de tela
+
+---
+
+## Versão 0.1.1 — 15 de abril de 2026
+
+### Corrigido
+- Correção no cashback exibido na tela inicial da área de seguros
+- O app agora espera as informações do perfil carregarem antes de mostrar a tela inicial, evitando telas em branco
+
+---
+
+## Versão 0.1.0 — 15 de abril de 2026
+
+### Novidades
+- **Módulo Academia lançado:** os alunos de academias parceiras agora podem ver seus treinos, contratos e faturas diretamente pelo app
+- Tela de detalhes de cada treino e exercício
+- Consulta e pagamento de faturas da academia
+- Histórico completo de pagamentos de parcelas
+- Seleção de unidade da academia pelo app
+- Compartilhamento de PDFs de contratos e faturas
+- Novo sistema para tirar foto do perfil, mais estável em todos os dispositivos
+
+### Corrigido
+- Melhoria no comportamento do app em telas de permissão de câmera no Android
+- Correção em conflitos de navegação que causavam travamentos em alguns celulares
+
+---
+
+## Versão 0.0.9 — 11 de abril de 2026
+
+### Novidades
+- Tela inicial de seguros agora exibe o resumo do plano contratado
+
+### Corrigido
+- Correção na exibição de valores de cashback
+- Melhoria visual nos cards da tela inicial
+
+---
+
+## Versão 0.0.8 — 11 de abril de 2026
+
+### Novidades
+- Tela inicial da área de seguros passou a exibir faturas em aberto com acesso rápido
+- Integração com a rede de descontos Hubconn: busca, detalhes e favoritos disponíveis
+
+### Corrigido
+- Pequenas correções de navegação e layout
+
+---
+
+## Versão 0.0.7 — 10 de abril de 2026
+
+### Corrigido
+- Correção no valor de cashback exibido em algumas telas
+- Ajuste visual nos cards da tela inicial
+
+---
+
+## Versão 0.0.6 — 10 de abril de 2026
+
+### Novidades
+- **Módulo de Seguros (Pasi):** contratação de planos, visualização de coberturas e faturas agora disponíveis
+- Tela de validação de identidade com envio de documentos e selfie pelo app
+- Tela de acionamento de assistências (cesta básica, telhado, pet, funeral e outros)
+- Tela de faturas em aberto com visualização e pagamento
+- **Módulo de Gás lançado:** pedido de gás com entrega, cadastro de endereços e histórico de compras
+- Integração completa com APIs de endereços, pedidos, planos e beneficiários de seguro
+- Novo campo de verificação de código por WhatsApp ou e-mail
+
+### Corrigido
+- Correção de erro ao exibir o cartão virtual em alguns dispositivos
+- Ajuste na máscara de CPF, e-mail e telefone em formulários
+- Correção na navegação para tela de favoritos de descontos
+
+---
+
+## Versão 0.0.5 — 9 de abril de 2026
+
+### Novidades
+- Novos componentes de card para exibição de produtos e estabelecimentos
+- Tela de seleção de planos de seguro com comparação de coberturas
+- Novos ícones para saúde, academia, presentes e outros serviços
+
+---
+
+## Versão 0.0.4 — 9 de abril de 2026
+
+### Novidades
+- Envio automático do nome da rede Wi-Fi conectada para melhorar o suporte técnico
+- Identificador de atualização OTA visível no perfil do usuário (facilita suporte)
+- Sistema de atualização do app melhorado, com tempo de espera maior antes de usar versão em cache
+
+### Corrigido
+- Correção de travamento ao iniciar o app em alguns dispositivos
+- Melhoria na estabilidade das atualizações automáticas (OTA)
+
+---
+
+## Versão 0.0.3 — 8 de abril de 2026
+
+### Corrigido
+- Ajustes gerais de estabilidade
+
+---
+
+## Versão 0.0.2 — 7 de abril de 2026
+
+### Novidades
+- Melhorias internas no sistema de atualização automática do app (OTA) para Android e iOS
+
+---
+
+## Versão 0.0.1 — 7 de abril de 2026
+
+### Novidades
+- Primeira versão do Super App Stations disponível via atualização automática (OTA)
