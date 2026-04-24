@@ -1,0 +1,7 @@
+stations:
+  name: Time Stations
+  title: Equipe de desenvolvimento — Stations Cloud
+  image_url: https://github.com/Stations-Cloud.png
+  page: true
+  socials:
+    github: Stations-Cloud
